@@ -1,0 +1,62 @@
+{
+  "name": "markdown-previewer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "assert": "^2.0.0",
+    "babel-polyfill": "^6.26.0",
+    "classnames": "^2.3.2",
+    "codemirror": "^5.62.0",
+    "jshint": "^2.13.6",
+    "lodash": "^4.17.21",
+    "marked": "^4.2.12",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-codemirror2": "^7.2.1",
+    "react-codemirror2-react-17": "^1.0.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.5",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.7",
+    "vm": "^0.1.0",
+    "webpack": "^5.77.0"
+  }
+}
